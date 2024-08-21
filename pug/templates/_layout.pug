@@ -1,0 +1,70 @@
+mjml
+    //- Head
+    mj-head
+        mj-title Apple letter maxgraph
+        mj-preview Apple letter maxgraph
+        mj-raw.
+            <meta name="color-scheme" content="light"/>
+            <meta name="supported-color-schemes" content="light"/>
+            <meta name="format-detection" content="telephone=no"/>
+            <meta name="format-detection" content="date=no"/>
+            <meta name="format-detection" content="address=no"/>
+            <meta name="format-detection" content="email=no"/>
+        mj-style.
+            h1{
+                all: inherit;
+            }
+            .up{
+                font-family: Verdana;
+                font-weight: Normal;
+                font-size: 10px;
+                line-height: 12px;
+                color: #ffffff;
+                margin-bottom: 5px;
+            }
+            .value{
+                font-family: Verdana;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 36px;
+                color: #ffffff;
+                margin-bottom: 10px;
+            }
+            .advantages{
+                font-family: Verdana;
+                font-weight: bold;
+                font-size: 10px;
+                line-height: 12px;
+                color:#ffffff;
+            }
+            .link-bottom{
+                text-decoration:none;
+                font-size: 10px;
+                line-height: 12px;
+                color:#51ACFF;
+            }
+            @media (max-width: 600px) {
+               .bottom{
+                    padding: 30px !important;
+               }
+               .bottom td {
+                    padding: 10px !important;
+               } 
+               .title h1{
+                    font-size: 30px !important;
+                    line-height: 40px !important;
+               }
+            }
+    //- Body
+    mj-body(width="640px")       
+        //- content
+        block content
+        //- map
+            block map
+            include ../includes/_map
+        //- recommended
+            block recommended
+            include ../includes/_recommended
+        //- footer
+            block footer
+            include ../includes/_footer
