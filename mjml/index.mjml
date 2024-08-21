@@ -1,0 +1,77 @@
+
+<mjml>
+  <mj-head>
+    <mj-title>Apple letter maxgraph</mj-title>
+    <mj-preview>Apple letter maxgraph</mj-preview>
+    <mj-raw>
+      <meta name="color-scheme" content="light"/>
+      <meta name="supported-color-schemes" content="light"/>
+      <meta name="format-detection" content="telephone=no"/>
+      <meta name="format-detection" content="date=no"/>
+      <meta name="format-detection" content="address=no"/>
+      <meta name="format-detection" content="email=no"/>
+    </mj-raw>
+    <mj-style>
+      h1{
+          all: inherit;
+      }
+      .up{
+          font-family: Verdana;
+          font-weight: Normal;
+          font-size: 10px;
+          line-height: 12px;
+          color: #ffffff;
+          margin-bottom: 5px;
+      }
+      .value{
+          font-family: Verdana;
+          font-weight: bold;
+          font-size: 30px;
+          line-height: 36px;
+          color: #ffffff;
+          margin-bottom: 10px;
+      }
+      .advantages{
+          font-family: Verdana;
+          font-weight: bold;
+          font-size: 10px;
+          line-height: 12px;
+          color:#ffffff;
+      }
+      .link-bottom{
+          text-decoration:none;
+          font-size: 10px;
+          line-height: 12px;
+          color:#51ACFF;
+      }
+      @media (max-width: 600px) {
+         .bottom{
+              padding: 30px !important;
+         }
+         .bottom td {
+              padding: 10px !important;
+         } 
+         .title h1{
+              font-size: 30px !important;
+              line-height: 40px !important;
+         }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="640px">      
+    <mj-section background-color="#313131" padding="0">
+      <mj-column>
+        <mj-image width="24px" align="center" padding="24px" src="http://work.maxgraph.ru/mail/mjml-letter/apple.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper css-class="columns" background-color="#141415" padding="0" padding-bottom="30px">
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text css-class="title" padding="50px 30px 0px 30px" color="#ffffff" font-family="Verdana" line-height="49px" font-size="40px" font-weight="bold" align="center">
+            <h1>Our most stunning take on post-production</h1>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
