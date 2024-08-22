@@ -70,6 +70,38 @@
           <mj-text css-class="title" padding="50px 30px 0px 30px" color="#ffffff" font-family="Verdana" line-height="49px" font-size="40px" font-weight="bold" align="center">
             <h1>Our most stunning take on post-production</h1>
           </mj-text>
+          <mj-button css-class="link" font-family="Verdana" font-size="15px" font-weight="bold" background-color="transparent" color="#51ACFF" line-height="18px" href="https://yandex.ru/">Buy now <img src="http://work.maxgraph.ru/mail/mjml-letter/arrow.png"/></mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-image align="center" src="http://work.maxgraph.ru/mail/mjml-letter/mac.png"/>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0 60px">
+        <mj-column>
+          <mj-text>
+            <div class="up">up to</div>
+            <div class="value">3.2x</div>
+            <div class="advantages">faster render</div>
+          </mj-text>
+          <mj-image align="left" src="http://work.maxgraph.ru/mail/mjml-letter/line.png"/>
+        </mj-column>
+        <mj-column>
+          <mj-text>
+            <div class="up">up to</div>
+            <div class="value">8 +</div>
+            <div class="advantages">streams of 4k video</div>
+          </mj-text>
+          <mj-image align="left" src="http://work.maxgraph.ru/mail/mjml-letter/line.png"/>
+        </mj-column>
+        <mj-column>
+          <mj-text>
+            <div class="up">up to</div>
+            <div class="value">2x</div>
+            <div class="advantages">faster running time</div>
+          </mj-text>
+          <mj-image align="left" src="http://work.maxgraph.ru/mail/mjml-letter/line.png"/>
         </mj-column>
       </mj-section>
     </mj-wrapper>
