@@ -10,6 +10,7 @@ mjml
             <meta name="format-detection" content="date=no"/>
             <meta name="format-detection" content="address=no"/>
             <meta name="format-detection" content="email=no"/>
+        mj-breakpoint(width="600px")/
         mj-style.
             h1{
                 all: inherit;
@@ -59,12 +60,12 @@ mjml
     mj-body(width="640px")       
         //- content
         block content
-        //- map
-            block map
-            include ../includes/_map
+        //- header
+        block header
+            include ../includes/_header
         //- recommended
-            block recommended
-            include ../includes/_recommended
+        block wrapper 
+            include ../includes/_wrapper
         //- footer
-            block footer
+        block footer
             include ../includes/_footer

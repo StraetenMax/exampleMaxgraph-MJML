@@ -11,6 +11,7 @@
       <meta name="format-detection" content="address=no"/>
       <meta name="format-detection" content="email=no"/>
     </mj-raw>
+    <mj-breakpoint width="600px"/>
     <mj-style>
       h1{
           all: inherit;
